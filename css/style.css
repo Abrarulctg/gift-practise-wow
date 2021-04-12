@@ -1,0 +1,27 @@
+body {
+    background-color: royalblue;
+}
+
+
+.wish-word h1{
+    font-size: 120px;
+    color: tomato;
+}
+
+.gift-img{
+    width: 100%;
+    display: none;
+}
+
+
+
+
+/* * Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+
+    .wish-word h1{
+        font-size: 80px;
+        color: tomato;
+    }
+
+}
